@@ -20,15 +20,22 @@ a{
 .header{
     background-color: wheat;
     padding:16px 0px;
-    align-items: center;
     
+    
+}
+
+.container{
+width: 80%;
+margin: auto;
+max-width: 1200px;
+
 }
 
 .header .container{
 
-    width: 80%;
+ 
     display: flex;
     justify-content: space-between;
-    margin: auto;
+    align-items: center;
 }
 
