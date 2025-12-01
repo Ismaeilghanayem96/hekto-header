@@ -8,7 +8,27 @@
 list-style: none;
 }
 
+.list-item{
+    display: flex;
+    gap: 16px;
+}
+
 a{
     text-decoration: none;
+}
+
+.header{
+    background-color: wheat;
+    padding:16px 0px;
+    align-items: center;
+    
+}
+
+.header .container{
+
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
 }
 
