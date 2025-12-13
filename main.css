@@ -75,6 +75,50 @@ max-width: 1200px;
     
 }
 
+/* hero images */
+
+.Cover{
+    
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-image: url(./Images/Cover_newslater.jpg);
+    margin-bottom: 48px;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: scroll;
+
+
+
+}
+
+.content p{
+    font-size: 28px;
+    color: #151875;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.content .btn{
+    width: 120px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 180px;
+    
+}
+
+
+
+
+
+
 /* footer below */
 
 .Empty_text{
@@ -111,8 +155,6 @@ max-width: 1200px;
     display: flex;
     
 }
-/* footer here */
-
 
 
 .footer{
@@ -181,7 +223,7 @@ max-width: 1200px;
 
 
 
-@media  screen and (min-width:0px) and (max-width:650px) {
+@media  screen and (min-width:0px) and (max-width:750px) {
     .footer .right_side, .footer .left_side{
         width: 100%;
         display: flex;
