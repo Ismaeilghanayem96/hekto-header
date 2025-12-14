@@ -216,17 +216,17 @@ max-width: 1200px;
 
 .Cover{
     
-    height: 80vh;
-    background-repeat: no-repeat;
+   min-height: 80vh;
     background-image: url(./Images/Cover_newslater.jpg);
-    margin-bottom: 48px;
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    background-attachment: scroll;
 
-
+    padding: 20px 16px;
 
 }
 
@@ -242,13 +242,14 @@ max-width: 1200px;
 }
 
 .content{
-    display: flex;
+   display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     gap: 16px;
-    align-items: center;
-    margin-bottom: 180px;
-    
+    text-align: center;
+
+    margin-bottom: 0;
 }
 
 
