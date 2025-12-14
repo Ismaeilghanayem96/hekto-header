@@ -75,6 +75,27 @@ max-width: 1200px;
     
 }
 
+.header .menu{
+    display: none;
+    font-size: 28px;
+}
+
+
+@media  screen and (min-width:0px) and (max-width:850px) {
+    .header .search form {
+        display:none ;
+    }
+
+    .header .list {
+        display:none ;
+    }
+
+    .header .menu{
+    display:block;
+}
+    
+}
+
 /* featured products */
 
 .empty_above{
